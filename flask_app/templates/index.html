@@ -1,0 +1,85 @@
+<html>
+   <head>
+        <title>Book Find</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+             h1{
+               font-family: 'Courier New';
+               border-style: solid; 
+               border-width: 3px;
+               color:white;
+             }
+             h4{
+               font-family: 'Courier New';
+               color:white;  
+             }
+             h5{
+               font-family: 'Courier New';
+               color:white;  
+             }
+             input[type=text], select {
+               width: 100%;
+               padding: 12px 20px;
+               margin: 8px 0;
+               display: inline-block;
+               border: 1px solid #ccc;
+               border-radius: 4px;
+               box-sizing: border-box;
+               height:60px;
+               font-size: 20px;
+             }
+
+             input[type=submit] {
+               background-color: #4CAF50; 
+               border: none;
+               color: white;
+               padding: 15px 32px;
+               text-align: center;
+               text-decoration: none;
+               display: inline-block;
+               font-size: 16px;
+               margin: 4px 2px;
+               cursor: pointer;
+               -webkit-transition-duration: 0.4s; 
+               transition-duration: 0.4s;
+               width: 1350px;
+             }
+             input[type=submit]:hover{
+               box-shadow: 0 12px 16px 0 rgb(255, 255, 255),0 17px 50px 0 rgba(255, 255, 255, 0.19);
+
+             }
+             label{
+                  color:white;
+                  font-size:60px;
+             }
+             button{
+               background-color: #4CAF50; 
+               border: none;
+               color: white;
+               padding: 15px 32px;
+               text-align: center;
+               text-decoration: none;
+               display: inline-block;
+               font-size: 16px;
+               margin: 4px 2px;
+               cursor: pointer;
+               -webkit-transition-duration: 0.4s; 
+               transition-duration: 0.4s;
+               width: 1350px;
+             }
+             button:hover{
+               box-shadow: 0 12px 16px 0 rgb(255, 255, 255),0 17px 50px 0 rgba(255, 255, 255, 0.19);
+             }
+        </style>
+   </head>
+   <body bgcolor="black">
+   <form method="POST">
+          <label for="Btitle">Enter the Book's title:</label>
+          <input type="text" id="Btitle" name="text" placeholder="Book Title...">
+        <input type="submit">
+   </form>
+   <button onclick="window.location.href = 'http://127.0.0.1:5000/'">Another Search</button>
+   <h4>Siddarth Kotthur</h4>
+   <h5>Webscraped project : https://www.goodreads.com</h5>
+   </body>
+</html>
