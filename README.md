@@ -8,7 +8,7 @@ The core code which I used to build this program is available in main.py and the
 (1) Webscraping with beautifulsoup\
 (2) HTML layouts\
 (3) Flask web development\
-Landing Page:
+# Landing Page:
 ![Landing Page:](Github%20Images/Screenshot.png)
-Search Result:
+# Search Result:
 ![Search result:](Github%20Images/Screenshot1.png)
