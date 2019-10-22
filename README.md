@@ -8,5 +8,5 @@ The core code which I used to build this program is available in main.py and the
 (1) Webscraping with beautifulsoup\
 (2) HTML layouts\
 (3) Flask web development 
-![Landing Page:](https://ibb.co/PM6y1WJ)
-![Search result:](https://ibb.co/GvWH7Bj)
+![Landing Page:](C:\Users\sid071\desktop\screenshot.png)
+![Search result:](C:\Users\sid071\desktop\screenshot1.png)
